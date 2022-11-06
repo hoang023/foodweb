@@ -1,0 +1,38 @@
+.navbar-expand-lg .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+
+.navbar-brand{
+    background-image: url(../../../assets/img/logo.png);
+    height: 56px;
+    width: 100px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.shadow{
+    border-bottom: 1px;
+}
+.navbar-nav{
+    margin-right: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav-item{
+    padding: 0px 20px;
+}
